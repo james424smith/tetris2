@@ -99,6 +99,7 @@ code {
   grid-template-columns: repeat(var(--cols), var(--tile-size));
   grid-gap: 0;
   align-self: flex-start;
+  grid-area: c; /* Assign to grid area c */
 }
 
 /* Next Block */
@@ -106,6 +107,7 @@ code {
   display: grid;
   grid-template-columns: repeat(4, var(--tile-size));
   align-self: flex-start;
+  grid-area: l; /* Grid area l left column */
 }
 
 /* Score Board */
